@@ -1,5 +1,4 @@
 #include "TestBase.hpp"
-#include <cassert>
 
 class Calculator
 {
