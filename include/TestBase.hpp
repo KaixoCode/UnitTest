@@ -8,7 +8,7 @@
 #define AssertEquals(x, y) _Assert(x == y, " \033[31mFailed at line " _AsString(__LINE__)\
 	" of file " __FILE__ "\n   Assertion: " #x " == " #y " \033[37m")
 #define AssertNotEquals(x, y) _Assert(x != y, " \033[31mFailed at line " _AsString(__LINE__)\
-	" of file " __FILE__ "\n   Assertion: " #x " == " #y " \033[37m")
+	" of file " __FILE__ "\n   Assertion: " #x " != " #y " \033[37m")
 #define AssertTrue(x) _Assert(x, " \033[31mFailed at line " _AsString(__LINE__) \
 	" of file " __FILE__ "\n   Assertion: " #x " is true\033[37m")
 #define AssertFalse(x) _Assert(!x, " \033[31mFailed at line " _AsString(__LINE__) \
